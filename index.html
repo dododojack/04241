@@ -31,6 +31,31 @@
             background-color: white;
             color: #007bff;
         }
+        #play-button {
+        background: linear-gradient(135deg, #4a90e2, #357ABD);
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
+        padding: 12px 30px;
+        cursor: pointer;
+        box-shadow: 0 6px 15px rgba(53, 122, 189, 0.4);
+        font-size: 1.1em;
+        transition: all 0.3s ease;
+        user-select: none;
+    }
+
+    #play-button:hover {
+        background: linear-gradient(135deg, #357ABD, #4a90e2);
+        box-shadow: 0 8px 20px rgba(69, 137, 221, 0.6);
+        transform: translateY(-3px);
+    }
+
+    #play-button:active {
+        background: linear-gradient(135deg, #2b5a9e, #2861aa);
+        box-shadow: 0 4px 10px rgba(40, 97, 170, 0.7);
+        transform: translateY(0);
+    }
     </style>
 </head>
 <body>
